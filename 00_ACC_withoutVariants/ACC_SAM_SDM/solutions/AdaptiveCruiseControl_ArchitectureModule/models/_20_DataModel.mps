@@ -123,7 +123,7 @@
     <property role="TrG5h" value="DataDictionary" />
     <node concept="2foHIR" id="2ZezXqsk72P" role="2fpkUa">
       <node concept="2fo_ht" id="2ZezXqsk72Q" role="2fpoE$">
-        <property role="TrG5h" value="D_BRAKE_sedan" />
+        <property role="TrG5h" value="D_BRAKE" />
         <node concept="OjmMv" id="2ZezXqsk72R" role="2foARm">
           <node concept="19SGf9" id="2ZezXqsk72S" role="OjmMu">
             <node concept="19SUe$" id="2ZezXqsk72T" role="19SJt6">
@@ -183,7 +183,7 @@
         </node>
       </node>
       <node concept="2fo_ht" id="2ZezXqsk738" role="2fpoE$">
-        <property role="TrG5h" value="KI_SS_hatchback" />
+        <property role="TrG5h" value="KI_SS" />
         <node concept="OjmMv" id="2ZezXqsk739" role="2foARm">
           <node concept="19SGf9" id="2ZezXqsk73a" role="OjmMu">
             <node concept="19SUe$" id="2ZezXqsk73b" role="19SJt6">
@@ -1055,7 +1055,7 @@
         <node concept="1sAZXf" id="2ZezXqsk728" role="lGtFl">
           <property role="2qtEX9" value="name" />
           <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-          <ref role="1sAZLB" node="2ZezXqsk72Q" resolve="D_BRAKE_sedan" />
+          <ref role="1sAZLB" node="2ZezXqsk72Q" resolve="D_BRAKE" />
         </node>
         <node concept="CIdvy" id="2ZezXqsk729" role="31S2z3">
           <node concept="3TlMh9" id="2ZezXqsk72a" role="CIrOC">
@@ -1111,7 +1111,7 @@
         <node concept="1sAZXf" id="2ZezXqsk72q" role="lGtFl">
           <property role="2qtEX9" value="name" />
           <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-          <ref role="1sAZLB" node="2ZezXqsk738" resolve="KI_SS_hatchback" />
+          <ref role="1sAZLB" node="2ZezXqsk738" resolve="KI_SS" />
         </node>
         <node concept="3TlMh9" id="2ZezXqsk72r" role="31S2z3">
           <property role="2hmy$m" value="0.0" />
