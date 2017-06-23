@@ -7,45 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="454ea353-6900-4990-bb1f-c72ae8156446" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mps/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/lib/win32/completeSystem.lib" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/lib/win32/completeSystem.lib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_Atomic.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_Atomic.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_SubSys.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_SubSys.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_System.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SafeDistance_System.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_Atomic.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_Atomic.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_SubSys.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_SubSys.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_System.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_System.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Amesim_Supercomponents.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Amesim_Supercomponents.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/BlockInterfaces.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/BlockInterfaces.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Discrete.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Discrete.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Operators.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Operators.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_PredefinedConstants.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_PredefinedConstants.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Sources.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Cla_Sources.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.ame" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.ame" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models_.dll" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models_.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Composite_Systems.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Composite_Systems.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Library.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Library.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Top_Level_System.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Top_Level_System.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/UnitTestMessages.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/UnitTestMessages.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Unittest_Helper.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Unittest_Helper.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Unittest_Helper_NonIsolated.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Unittest_Helper_NonIsolated.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/___BlockMessages.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/___BlockMessages.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/___SimulationRuntime.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/___SimulationRuntime.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/win32/Amesim_Supercomponents_HMI_input.obj" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/win32/Amesim_Supercomponents_HMI_input.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projname.txt" afterPath="$PROJECT_DIR$/projname.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/models/_30_Architecture.mps" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/models/_30_Architecture.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_Atomic.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/ACC_SpeedTracking_Atomic.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_CHASSIS_INPUT.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_CHASSIS_INPUT.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_ENGINE_INPUT.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_ENGINE_INPUT.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_HMI_INPUT.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/AMESIM_SUPERCOMPONENTS_HMI_INPUT.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/CLOSED_LOOP_SIMULATION_MODELS_CONTROL.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/CLOSED_LOOP_SIMULATION_MODELS_CONTROL.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.c" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.h" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models_control.spe" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/classes_gen/_60_ClosedLoopValidation/Amesim/completeSystem/submodels/Closed_Loop_Simulation_Models_control.spe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/models/_50_UnitTests.mps" afterPath="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/models/_50_UnitTests.mps" />
     </list>
     <ignored path="ACC_SAM_SDM.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -148,7 +110,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157346" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -174,11 +136,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="359" />
-                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157029" />
+                    <cellInfo cellId="Constant_yww9py_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157346" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -196,15 +158,9 @@
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_hjwjb7_a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157029" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157029" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture)/6427938858666157346" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -603,37 +559,37 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/AdaptiveCruiseControl_DevelopmentModule.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/AdaptiveCruiseControl_ArchitectureModule.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/AdaptiveCruiseControl_ArchitectureModule.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture) in IdeaFile{file://C:/Users/tghx1e/CHE-W14-005/00_BzDev/00_solution/PEA/git/ACC/00_ACC_withoutVariants/ACC_SAM_SDM/solutions/AdaptiveCruiseControl_ArchitectureModule/models/_30_Architecture.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/AdaptiveCruiseControl_ArchitectureModule.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/AdaptiveCruiseControl_DevelopmentModule.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,10 +604,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:f599b715-12fa-44c1-a288-a72fd0bffe50(_30_Architecture) in IdeaFile{file://C:/Users/tghx1e/CHE-W14-005/00_BzDev/00_solution/PEA/git/ACC/00_ACC_withoutVariants/ACC_SAM_SDM/solutions/AdaptiveCruiseControl_ArchitectureModule/models/_30_Architecture.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6427938858666157028" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -737,7 +689,7 @@
       <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence Diagram" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -762,7 +714,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2113127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CBMC Raw Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23603794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MISRA Checking Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Measurement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,6 +739,24 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -799,7 +769,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="addition of Lidar interface to control architecture" />
     <option name="LAST_COMMIT_MESSAGE" value="addition of Lidar interface to control architecture" />
   </component>
