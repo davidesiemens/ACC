@@ -11,6 +11,7 @@
     <devkit ref="4b986c6d-bc86-440d-8cd0-d6c70baecc55(AADLImport)" />
     <devkit ref="18265215-b106-4da4-a111-5fbf33a71b97(SimulinkImport)" />
     <devkit ref="dee9d228-3a6e-4197-9138-6647a60f7a90(ProcessSupport)" />
+    <devkit ref="7cb7a2e0-fff0-4922-bf5e-ec095e163238(PolarionRM)" />
   </languages>
   <imports>
     <import index="apm3" ref="r:37dd1674-fd74-4173-9e1d-8876a030925a(_20_DataModel)" />
@@ -24,16 +25,7 @@
   </imports>
   <registry>
     <language id="53bab999-e9c3-428a-80be-fef5bed08f55" name="com.mbeddr.cc.trace">
-      <concept id="4577779292081940160" name="com.mbeddr.cc.trace.structure.ITrace" flags="ng" index="FamN3">
-        <child id="4577779292081946445" name="refs" index="Fanle" />
-        <child id="4577779292081946444" name="tracekind" index="Fanlf" />
-      </concept>
       <concept id="8626086128969157722" name="com.mbeddr.cc.trace.structure.TracingConfigItem" flags="ng" index="3C_SZV" />
-      <concept id="439567521322928994" name="com.mbeddr.cc.trace.structure.TraceAnnotation" flags="ng" index="3HmicQ" />
-      <concept id="439567521322929001" name="com.mbeddr.cc.trace.structure.TestsTraceKind" flags="ng" index="3HmicX" />
-      <concept id="439567521322929331" name="com.mbeddr.cc.trace.structure.TraceTargetRef" flags="ng" index="3HmijB">
-        <reference id="439567521322959431" name="target" index="3HmaCj" />
-      </concept>
     </language>
     <language id="0d04a6cc-773e-4069-b9b0-11884b2ff1c8" name="com.mbeddr.ext.units">
       <concept id="5348704582971040037" name="com.mbeddr.ext.units.structure.UnitConfigItem" flags="ng" index="2eh4Hv" />
@@ -156,9 +148,6 @@
       </concept>
       <concept id="1720297823044588574" name="com.lmsintl.accent.blocks.test.structure.BlockUnitTestConfigItems" flags="ng" index="1XFeRv" />
     </language>
-    <language id="e865cad2-7cc8-437a-951a-665bcbcb8b1a" name="com.mbeddr.cc.requirements">
-      <concept id="439567521322984797" name="com.mbeddr.cc.requirements.structure.RequirementRef" flags="ng" index="3HmcO9" />
-    </language>
     <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
       <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
         <child id="842732463503928104" name="testStrategy" index="3GpDut" />
@@ -194,9 +183,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -332,12 +318,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="3HmicQ" id="5d2c0EzHAXA" role="lGtFl">
-        <node concept="3HmicX" id="5d2c0EzLfPM" role="Fanlf" />
-        <node concept="3HmcO9" id="5d2c0EzLfPJ" role="Fanle">
-          <ref role="3HmaCj" to="uphy:5$OC5nkIq$q" resolve="FollowingDistance1" />
         </node>
       </node>
     </node>

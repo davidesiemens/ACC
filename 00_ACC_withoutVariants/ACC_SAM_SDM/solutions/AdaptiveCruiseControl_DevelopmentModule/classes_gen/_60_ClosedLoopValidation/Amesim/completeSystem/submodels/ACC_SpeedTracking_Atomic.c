@@ -36,7 +36,7 @@ static void  ACC_SpeedTracking_Atomic_ContractFailures_contractFailed(uint8_t co
 
 static void  ACC_SpeedTracking_Atomic_Data_Dicitonary_Constraint_Violation_d_brake_range_Data_Dicitonary_Constraint_Violation(double actual, uint8_t maximum, uint8_t minimum, char *loc);
 
-static double  ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(double d_lead_safe, double v_set1, double d_lead1, double v_acc1, double d_safe1);
+static double  ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(double d_lead1, double d_safe1, double d_lead_safe, double v_set1, double v_acc1);
 
 /* 
  * Message Reporting Function
@@ -59,7 +59,7 @@ double  ACC_SpeedTracking_Atomic_st_mode_table(double v_acc1, double v_set1, dou
     return -1.0;
   } else
   {
-    return ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(d_lead_safe, v_set1, d_lead1, v_acc1, d_safe1);
+    return ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(d_lead1, d_safe1, d_lead_safe, v_set1, v_acc1);
   }
 }
 
@@ -238,7 +238,7 @@ void  ACC_SpeedTracking_Atomic____st_tracking_execute(void *___nothing, double b
   }
 }
 
-static double  ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(double d_lead_safe, double v_set1, double d_lead1, double v_acc1, double d_safe1) 
+static double  ACC_SpeedTracking_Atomic_blockexpr_st_mode_table_20(double d_lead1, double d_safe1, double d_lead_safe, double v_set1, double v_acc1) 
 {
   if ( v_set1 > v_acc1 ) 
   {

@@ -187,22 +187,22 @@ void  Closed_Loop_Simulation_Models____control_flattened_init(Closed_Loop_Simula
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Discrete____IntegratorICInt_init(&___id->i_Integrator_);
+  Library____IntegratorICInt_init(&___id->i_Integrator_);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Discrete____IntegratorICInt_init(&___id->i_Filter);
+  Library____IntegratorICInt_init(&___id->i_Filter);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Operators____Sum_init(&___id->i_SumD, 1, 1);
+  Library____Sum_init(&___id->i_SumD, 1, 1);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Operators____Sum_init(&___id->i_Sum_, 0, 3);
+  Library____Sum_init(&___id->i_Sum_, 0, 3);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
@@ -217,22 +217,22 @@ void  Closed_Loop_Simulation_Models____control_flattened_init(Closed_Loop_Simula
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Discrete____IntegratorICInt_init(&___id->i_Integrator_1);
+  Library____IntegratorICInt_init(&___id->i_Integrator_1);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Operators____Sum_init(&___id->i_Sum_1, 0, 2);
+  Library____Sum_init(&___id->i_Sum_1, 0, 2);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Discrete____IntegratorICInt_init(&___id->i_Integrator_2);
+  Library____IntegratorICInt_init(&___id->i_Integrator_2);
   /* 
    * Stateful blocks: call init functions dsthffgshdgfhfgh
    */
 
-  Cla_Operators____Sum_init(&___id->i_Sum_2, 0, 2);
+  Library____Sum_init(&___id->i_Sum_2, 0, 2);
 }
 
 /* 
@@ -441,7 +441,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       {
         ___id->i_Integrator_1.___simIncr = ___id->___simIncr;
-        Cla_Discrete____IntegratorICInt_execute(&(___id->i_Integrator_1), (___id->I1_out1), &(___id->Integrator_1_out1));
+        Library____IntegratorICInt_execute(&(___id->i_Integrator_1), (___id->I1_out1), &(___id->Integrator_1_out1));
       };
       
       
@@ -452,7 +452,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       {
         ___id->i_Integrator_2.___simIncr = ___id->___simIncr;
-        Cla_Discrete____IntegratorICInt_execute(&(___id->i_Integrator_2), (___id->I2_out1), &(___id->Integrator_2_out1));
+        Library____IntegratorICInt_execute(&(___id->i_Integrator_2), (___id->I2_out1), &(___id->Integrator_2_out1));
       };
       
       
@@ -463,7 +463,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       {
         ___id->i_Integrator_.___simIncr = ___id->___simIncr;
-        Cla_Discrete____IntegratorICInt_execute(&(___id->i_Integrator_), (___id->I_out1), &(___id->Integrator__out1));
+        Library____IntegratorICInt_execute(&(___id->i_Integrator_), (___id->I_out1), &(___id->Integrator__out1));
       };
       
       
@@ -474,7 +474,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       {
         ___id->i_Filter.___simIncr = ___id->___simIncr;
-        Cla_Discrete____IntegratorICInt_execute(&(___id->i_Filter), (___id->i___delay_DiscretePIDControllerPIDParallelICInt__FilterCoefficient_out1__Filter_in1_out), &(___id->Filter_out1));
+        Library____IntegratorICInt_execute(&(___id->i_Filter), (___id->i___delay_DiscretePIDControllerPIDParallelICInt__FilterCoefficient_out1__Filter_in1_out), &(___id->Filter_out1));
       };
       
       
@@ -504,7 +504,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_D), (___id->ssd_dist_error_d_error), &(___id->D_out1));
+        Library____Gain_execute(&(___id->i_D), (___id->ssd_dist_error_d_error), &(___id->D_out1));
       };
       
       
@@ -514,7 +514,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_I), (___id->ssd_dist_error_d_error), &(___id->I_out1));
+        Library____Gain_execute(&(___id->i_I), (___id->ssd_dist_error_d_error), &(___id->I_out1));
       };
       
       
@@ -524,7 +524,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_P), (___id->ssd_dist_error_d_error), &(___id->P_out1));
+        Library____Gain_execute(&(___id->i_P), (___id->ssd_dist_error_d_error), &(___id->P_out1));
       };
       
       
@@ -555,7 +555,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Sum_execute(&(___id->i_SumD), SumD_minus_ptrarr, SumD_plus_ptrarr, &(___id->SumD_out1), 1, 1);
+        Library____Sum_execute(&(___id->i_SumD), SumD_minus_ptrarr, SumD_plus_ptrarr, &(___id->SumD_out1), 1, 1);
       };
       
       
@@ -565,7 +565,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_FilterCoefficient), (___id->SumD_out1), &(___id->FilterCoefficient_out1));
+        Library____Gain_execute(&(___id->i_FilterCoefficient), (___id->SumD_out1), &(___id->FilterCoefficient_out1));
       };
       
       
@@ -581,7 +581,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
     {
       
       
-      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_res = CLA_DISCRETE______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P_out1));
+      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_res = LIBRARY______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P_out1));
       
       
     }
@@ -593,7 +593,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Sum_execute(&(___id->i_Sum_), Sum__minus_ptrarr, Sum__plus_ptrarr, &(___id->Sum__out1), 0, 3);
+        Library____Sum_execute(&(___id->i_Sum_), Sum__minus_ptrarr, Sum__plus_ptrarr, &(___id->Sum__out1), 0, 3);
       };
       
       
@@ -650,7 +650,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_I2), (___id->bm_error_v_error), &(___id->I2_out1));
+        Library____Gain_execute(&(___id->i_I2), (___id->bm_error_v_error), &(___id->I2_out1));
       };
       
       
@@ -670,7 +670,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_P2), (___id->bm_error_v_error), &(___id->P2_out1));
+        Library____Gain_execute(&(___id->i_P2), (___id->bm_error_v_error), &(___id->P2_out1));
       };
       
       
@@ -679,7 +679,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
     {
       
       
-      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus2_res = CLA_DISCRETE______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P2_out1));
+      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus2_res = LIBRARY______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P2_out1));
       
       
     }
@@ -691,7 +691,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Sum_execute(&(___id->i_Sum_2), Sum_2_minus_ptrarr, Sum_2_plus_ptrarr, &(___id->Sum_2_out1), 0, 2);
+        Library____Sum_execute(&(___id->i_Sum_2), Sum_2_minus_ptrarr, Sum_2_plus_ptrarr, &(___id->Sum_2_out1), 0, 2);
       };
       
       
@@ -721,7 +721,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_I1), (___id->tm_error_v_error), &(___id->I1_out1));
+        Library____Gain_execute(&(___id->i_I1), (___id->tm_error_v_error), &(___id->I1_out1));
       };
       
       
@@ -731,7 +731,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Gain_execute(&(___id->i_P1), (___id->tm_error_v_error), &(___id->P1_out1));
+        Library____Gain_execute(&(___id->i_P1), (___id->tm_error_v_error), &(___id->P1_out1));
       };
       
       
@@ -740,7 +740,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
     {
       
       
-      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus1_res = CLA_DISCRETE______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P1_out1));
+      ___id->i__smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus1_res = LIBRARY______smartcon__DiscretePIDControllerPIDParallelICInt__P_out1__Sum__plus_execute((___id->P1_out1));
       
       
     }
@@ -752,7 +752,7 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
       
       
       {
-        Cla_Operators____Sum_execute(&(___id->i_Sum_1), Sum_1_minus_ptrarr, Sum_1_plus_ptrarr, &(___id->Sum_1_out1), 0, 2);
+        Library____Sum_execute(&(___id->i_Sum_1), Sum_1_minus_ptrarr, Sum_1_plus_ptrarr, &(___id->Sum_1_out1), 0, 2);
       };
       
       
@@ -790,19 +790,19 @@ void  Closed_Loop_Simulation_Models____control_flattened_execute(Closed_Loop_Sim
     }
     {
       
-      Cla_Discrete____IntegratorICInt_update(&(___id->i_Integrator_1), (___id->I1_out1));
+      Library____IntegratorICInt_update(&(___id->i_Integrator_1), (___id->I1_out1));
     }
     {
       
-      Cla_Discrete____IntegratorICInt_update(&(___id->i_Integrator_2), (___id->I2_out1));
+      Library____IntegratorICInt_update(&(___id->i_Integrator_2), (___id->I2_out1));
     }
     {
       
-      Cla_Discrete____IntegratorICInt_update(&(___id->i_Integrator_), (___id->I_out1));
+      Library____IntegratorICInt_update(&(___id->i_Integrator_), (___id->I_out1));
     }
     {
       
-      Cla_Discrete____IntegratorICInt_update(&(___id->i_Filter), (___id->i___delay_DiscretePIDControllerPIDParallelICInt__FilterCoefficient_out1__Filter_in1_out));
+      Library____IntegratorICInt_update(&(___id->i_Filter), (___id->i___delay_DiscretePIDControllerPIDParallelICInt__FilterCoefficient_out1__Filter_in1_out));
     }
     {
       

@@ -93,7 +93,7 @@
      <TYPE>0</TYPE>
      <DIMENSION>1</DIMENSION>
      <IO>2</IO>
-     <UNITS>([])</UNITS>
+     <UNITS>1/(m**-0.0)</UNITS>
     </EVAR>
    </PORT>
    <PORT>
@@ -129,7 +129,7 @@
      <TYPE>0</TYPE>
      <DIMENSION>1</DIMENSION>
      <IO>2</IO>
-     <UNITS>([])</UNITS>
+     <UNITS>1/(m**-0.0)</UNITS>
     </EVAR>
    </PORT>
   </EVARS_LIST>
