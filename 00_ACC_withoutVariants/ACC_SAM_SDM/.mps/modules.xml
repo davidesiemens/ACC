@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_ArchitectureModule/AdaptiveCruiseControl_ArchitectureModule.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/AdaptiveCruiseControl_DevelopmentModule/AdaptiveCruiseControl_DevelopmentModule.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

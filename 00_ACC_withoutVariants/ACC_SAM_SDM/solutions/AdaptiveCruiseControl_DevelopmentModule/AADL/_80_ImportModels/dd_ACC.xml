@@ -1,0 +1,16 @@
+<datadictionary>
+  <ddentry name="Bool_Type">
+    <kind type="quantity" />
+    <type>int32</type>
+    <unit />
+    <constraint type="" VALUE="" />
+    <description>Imported from AADL Model</description>
+  </ddentry>
+  <ddentry name="Float_Type">
+    <kind type="quantity" />
+    <type>int16</type>
+    <unit />
+    <constraint type="" VALUE="" />
+    <description>Imported from AADL Model</description>
+  </ddentry>
+</datadictionary>

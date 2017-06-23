@@ -1,0 +1,118 @@
+<simulinkExportBlocks>
+  <block-interface name="Button_Panel" model="_80_ImportModels" module="ACC" exported="true">
+    <outport name="Activate" type="double " controlledName="Bool_Type" />
+    <outport name="Cancel" type="double " controlledName="Bool_Type" />
+    <outport name="Onnotoff" type="double " controlledName="Bool_Type" />
+    <outport name="Incspeed" type="double " controlledName="Bool_Type" />
+    <outport name="Decspd" type="double " controlledName="Bool_Type" />
+  </block-interface>
+  <block-interface name="Drivermodelogic" model="_80_ImportModels" module="ACC" exported="true">
+    <inport name="Breakpedalpressed" type="double " controlledName="Bool_Type" />
+    <inport name="Clutchpedalpressed" type="double " controlledName="Bool_Type" />
+    <inport name="Activate" type="double " controlledName="Bool_Type" />
+    <inport name="Cancel" type="double " controlledName="Bool_Type" />
+    <inport name="Onnotoff" type="double " controlledName="Bool_Type" />
+    <outport name="Cruiseactive" type="double " controlledName="Bool_Type" />
+  </block-interface>
+  <block-interface name="Refspd" model="_80_ImportModels" module="ACC" exported="true">
+    <inport name="Activate" type="double " controlledName="Bool_Type" />
+    <inport name="Cruiseactive" type="double " controlledName="Bool_Type" />
+    <inport name="Incspeed" type="double " controlledName="Bool_Type" />
+    <inport name="Decspd" type="double " controlledName="Bool_Type" />
+    <outport name="Refspd_Mph" type="double " controlledName="Float_Type" />
+  </block-interface>
+  <block-interface name="Instrumentpanel" model="_80_ImportModels" module="ACC" exported="true">
+    <inport name="Autospd_Mph" type="double " controlledName="Float_Type" />
+    <inport name="Engspd_Rpm" type="double " controlledName="Float_Type" />
+    <inport name="Refspd_Mph" type="double " controlledName="Float_Type" />
+  </block-interface>
+  <sr-interface name="cruiseControl_out" model="_80_ImportModels" module="ACC" exported="true">
+    <var name="activate" type="double " controlledName="Bool_Type" />
+  </sr-interface>
+  <sr-interface name="Hci_Process_in" model="_80_ImportModels" module="ACC" exported="true">
+    <var name="Breakpedalpressed" type="double " controlledName="Bool_Type" />
+    <var name="Clutchpedalpressed" type="double " controlledName="Bool_Type" />
+    <var name="Autospd_Mph" type="double " controlledName="Float_Type" />
+    <var name="Engspd_Rpm" type="double " controlledName="Float_Type" />
+  </sr-interface>
+  <sr-interface name="Hci_Process_out" model="_80_ImportModels" module="ACC" exported="true">
+    <var name="Cruiseactive" type="double " controlledName="Bool_Type" />
+    <var name="Refspd_Mph" type="double " controlledName="Float_Type" />
+  </sr-interface>
+  <compositeBlock name="Button_Panel_GUI" model="_80_ImportModels" module="ACC" realizes="Button_Panel" exported="true" cyclic="true" partitionable="false" />
+  <compositeBlock name="Drivermodelogic_Simulink" model="_80_ImportModels" module="ACC" realizes="Drivermodelogic" exported="true" cyclic="true" partitionable="false" />
+  <compositeBlock name="Refspd_Simulink" model="_80_ImportModels" module="ACC" realizes="Refspd" exported="true" cyclic="true" partitionable="false" />
+  <compositeBlock name="Instrumentpanel_Gui" model="_80_ImportModels" module="ACC" realizes="Instrumentpanel" exported="true" cyclic="true" partitionable="false" />
+  <pcomponent name="cruiseControl_variant1" exported="true" model="_80_ImportModels" module="ACC">
+    <provides name="cruiseControl_out" interface="cruiseControl_out" />
+    <instance sourceModule="ACC" sourceName="Button_Panel" name="buttonPanel" />
+    <outboundConnector>
+      <source instance="buttonPanel" port="Activate" />
+      <target interfaceinst="cruiseControl_out" interface="cruiseControl_out" var="activate" />
+    </outboundConnector>
+  </pcomponent>
+  <pcomponent name="Hci_Process_Model" exported="true" model="_80_ImportModels" module="ACC">
+    <requires name="Hci_Process_in" interface="Hci_Process_in" />
+    <provides name="Hci_Process_out" interface="Hci_Process_out" />
+    <instance sourceModule="ACC" period="20 ms" sourceName="Button_Panel_GUI" name="T_Buttonpanel" />
+    <instance sourceModule="ACC" period="10 ms" sourceName="Drivermodelogic_Simulink" name="T_Drivermodelogic" />
+    <instance sourceModule="ACC" period="20 ms" sourceName="Refspd_Simulink" name="T_Refspd" />
+    <instance sourceModule="ACC" period="30 ms" sourceName="Instrumentpanel_Gui" name="T_Instrumentpanel" />
+    <inboundConnector>
+      <source interfaceinst="Hci_Process_in" interface="Hci_Process_in" var="Breakpedalpressed" />
+      <target instance="T_Drivermodelogic" port="Breakpedalpressed" />
+    </inboundConnector>
+    <inboundConnector>
+      <source interfaceinst="Hci_Process_in" interface="Hci_Process_in" var="Clutchpedalpressed" />
+      <target instance="T_Drivermodelogic" port="Clutchpedalpressed" />
+    </inboundConnector>
+    <inboundConnector>
+      <source interfaceinst="Hci_Process_in" interface="Hci_Process_in" var="Autospd_Mph" />
+      <target instance="T_Instrumentpanel" port="Autospd_Mph" />
+    </inboundConnector>
+    <outboundConnector>
+      <source instance="T_Drivermodelogic" port="Cruiseactive" />
+      <target interfaceinst="Hci_Process_out" interface="Hci_Process_out" var="Cruiseactive" />
+    </outboundConnector>
+    <outboundConnector>
+      <source instance="T_Refspd" port="Refspd_Mph" />
+      <target interfaceinst="Hci_Process_out" interface="Hci_Process_out" var="Refspd_Mph" />
+    </outboundConnector>
+    <internalConnector>
+      <source instance="T_Drivermodelogic" port="Cruiseactive" />
+      <target instance="T_Refspd" port="Cruiseactive" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Activate" />
+      <target instance="T_Drivermodelogic" port="Activate" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Cancel" />
+      <target instance="T_Drivermodelogic" port="Cancel" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Onnotoff" />
+      <target instance="T_Drivermodelogic" port="Onnotoff" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Refspd" port="Refspd_Mph" />
+      <target instance="T_Instrumentpanel" port="Refspd_Mph" />
+    </internalConnector>
+    <inboundConnector>
+      <source interfaceinst="Hci_Process_in" interface="Hci_Process_in" var="Engspd_Rpm" />
+      <target instance="T_Instrumentpanel" port="Engspd_Rpm" />
+    </inboundConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Activate" />
+      <target instance="T_Refspd" port="Activate" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Decspd" />
+      <target instance="T_Refspd" port="Decspd" />
+    </internalConnector>
+    <internalConnector>
+      <source instance="T_Buttonpanel" port="Incspeed" />
+      <target instance="T_Refspd" port="Incspeed" />
+    </internalConnector>
+  </pcomponent>
+</simulinkExportBlocks>
